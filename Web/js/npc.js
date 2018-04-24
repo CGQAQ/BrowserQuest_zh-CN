@@ -1,3 +1,4 @@
+// translated by CGQAQ<m.jason.liu@outlook.com>
 
 define(['character'], function(Character) {
 
