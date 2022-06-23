@@ -1,25 +1,11 @@
-# Zero Game
-Forked from [walkor/BrowserQuest-PHP](https://github.com/walkor/BrowserQuest-PHP)
+# prerequisites
 
-![BrowserQuest width workerman](https://github.com/walkor/BrowserQuest-PHP/blob/master/Web/img/screenshot.jpg?raw=true)
+you need docker to run this.
 
-## 安装 － Install
-+   git clone https://github.com/walkor/BrowserQuest-PHP
-+   composer install 
+## how to
 
-## 启动停止 - Start and Stop
-以debug模式启动 ```php start.php start```  
-以daemon模式启动 ```php start.php start -d```  
-查看状态 ```php start.php status```  
-停止 ```php start.php stop```  
-
-## 说明 - Description
-本游戏是由[BrowserQuest](https://github.com/mozilla/BrowserQuest)修改而来，主要是将后端nodejs部分用php（[workerman框架](https://github.com/walkor/workerman)）重写。
-
-
-## <s>在线演示 - Live Demo</s>
-<s>[http://zero.adzuki.studio/](http://zero.adzuki.studio/)</s>
-
-
-## 原Repo - Original Repo
-[https://github.com/mozilla/BrowserQuest](https://github.com/mozilla/BrowserQuest)
+```bash
+git clone https://github.com/CGQAQ/BrowserQuest_zh-CN.git
+docker build . -t quest
+docker run -dit -p 8787:8787 -p 8000:8000  quest
+```
