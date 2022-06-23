@@ -9,4 +9,4 @@ RUN docker-php-ext-configure pcntl --enable-pcntl && docker-php-ext-install pcnt
 
 RUN cd /app && composer install
 
-CMD ["php", "start.php", " start", "-d"]
+CMD ["php", "start.php", " start"]
