@@ -1,5 +1,4 @@
 {
   "host": "juan.icu",
-  "port": 8000,
-  "dispatcher": false
+  "port": 8000
 }
